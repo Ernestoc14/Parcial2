@@ -35,8 +35,8 @@ public class App {
         return pes;
     }
     Scanner sn = new Scanner(System.in);
-    char [] sexo = new char [5]; //Para sexo
-    double [] peso = new double [5]; //Para peso
+    char [] sexo = new char [15]; //Para sexo
+    double [] peso = new double [15]; //Para peso
     double TotaldePeso=0;
     // double [] HorasTotalesxDia = new double[6]; //OPC4
     // double [] Porcentajes = new double[6]; // OPC5
@@ -139,7 +139,7 @@ public class App {
             medianas++;
             }
         }
-        System.out.printf("Hay %d personas delgadas en el gimnasio ",medianas);
+        System.out.printf("Hay %d personas medianas en el gimnasio ",medianas);
     }
     public void GruesaXSexo(double []peso) //OPCION 7
     {   int gruesas=0;
@@ -148,7 +148,7 @@ public class App {
             gruesas++;
             }
         }
-        System.out.printf("Hay %d personas delgadas en el gimnasio ",gruesas);
+        System.out.printf("Hay %d personas medianas en el gimnasio ",gruesas);
     }
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
